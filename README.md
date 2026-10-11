@@ -1,27 +1,38 @@
-# STEP-C1 Dynamic Activities
+# STEP-C1 Java OOP Lab Activities
 
-This is a separate, class-style Java project based on the supplied Activities 1-8.
+This repository contains the completed activity folders in their submission layout.
 
-## Structure
-Each activity follows:
-`activityX/src/com/gdb/domain`
-`activityX/src/com/gdb/exceptions` (where needed)
-`activityX/src/com/gdb/tests`
+## Activities in order
 
-## Dynamic tests
-The test programs are menu-driven using `Scanner`. They do not rely on the fixed sample account numbers/scenarios from the expected output. You choose the operation and enter values at runtime.
+1. [Activity 1](Activity1/)
+2. [Activity 2](Activity2/)
+3. [Activity 3](Activity3/)
+4. [Activity 4](Activity4/)
+5. [Activity 5](Activity5/)
+6. [Activity 6](Activity6/)
+7. [Activity 7](Activity7/)
+8. [Activity 8](Activity8/)
+9. [Activity 9](Activity9/README.md)
+10. [Activity 10](Activity10/README.md)
+11. [Activity 11](Activity11/README.md)
+12. [Activity 12](Activity12/README.md)
+13. Activity 13: [Part 13.1](Activity13/13.1/README.md) and [Part 13.2](Activity13/13.2/README.md)
+14. [Activity 14](Activity14/README.md)
+15. [Activity 15](Activity15/README.md)
+16. [Activity 16](Activity16/README.md)
+17. [Activity 17](Activity17/README.md)
+18. [Activity 18](Activity18/README.md)
+19. [Activity 19](Activity19/README.md)
+20. [Activity 20](Activity20/README.md)
+21. [Activity 21](Activity21/README.md)
+22. [Activity 22](Activity22/README.md)
+23. [Activity 23](Activity23/README.md)
+24. [Activity 24](Activity24/README.md)
+25. [Activity 25](Activity25/README.md)
+26. [Activity 26](Activity26/README.md)
 
-Examples:
-- Activity 1/2: create, deposit, withdraw, edit/display.
-- Activity 3/4: enhanced account operations, PIN, close/reopen.
-- Activity 5/6: exception-based operations with try/catch.
-- Activity 8: create Savings/Current accounts, select accounts by number, interest, overdraft, polymorphism, operations.
+## Layout
 
-## Compile/run
-From an activity directory:
-`javac -d out $(find src -name "*.java")`
-On Windows PowerShell, use:
-`Get-ChildItem -Recurse src\*.java | ForEach-Object { $_.FullName } | javac -d out ...`
-or compile from the `src` tree using your IDE.
+Each activity is stored in its own `ActivityN` folder. Source code is under `src/com/gdb`, with `src/main/resources`, `docs`, `data`, and `lib` included where that activity needs them. Open the activity README or documentation file for its own compile and run instructions.
 
-Important: Activity 7 is the implementation step; Activity 8 is the dynamic test for subclasses.
+Build output and local databases are excluded through `.gitignore`.
