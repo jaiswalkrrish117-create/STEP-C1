@@ -1,2 +1,8 @@
 *.class
 out/
+bin/
+*.db
+*.tmp
+*.bak.*
+test_data/
+data/*.ser
